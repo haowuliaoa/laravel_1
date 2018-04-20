@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/index",
+    "pages/order/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "少年，不来一发吗",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"",
+    "selectedColor":"",
+    "backgroundColor":"",
+    "borderStyle":"",
+    "list":[
+      {
+        "pagePath":"pages/list/index",
+        "text":"商品列表",
+        "iconPath":"",
+        "selectedIconPath":""
+      },
+      {
+        "pagePath":"pages/order/index",
+        "text":"我的订单",
+        "iconPath":"",
+        "selectedIconPath":""
+      }
+
+    ],
+    "position":""
+  }
+}

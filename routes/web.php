@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 Route::any('/admin/login', "Admin\LoginController@index");
+Route::any('/', "IndexController@index");
